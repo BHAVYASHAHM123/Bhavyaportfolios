@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya's portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+</head>
+<body>
+    
+
+
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> Ai Based <span>Dustbin & Cleaner</span> </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img class="tilt" src="images/dustbin.jpg" alt="">
+        </div>
+
+        <div class="content">
+            
+            <p class="info">
+                India is the land of beauty, places we love to visit and admire but when we visit those places we find that some people spoil the beauty just by spreading the garbage here and there and sadly you can't blame anyone to pick until you see with your eyes who did.
+                Now Imagine there is a miracle. Those places are cleaned automatically and the place is back to its beauty, without a piece of garbage and whoever throws it gets a penalty, for spoiling it by throwing things around rather than using a dustbin. Just by imagining this miracle made you into a happy mood, think if I say this miracle is possible in reality what would be your reaction. Yes, you read it right introducing.........
+                </p>
+            <div class="box-container" style="font-size: 15px;"> 
+              
+                    <p> So, here comes the concept of Ai based dustbin & cleaner. <br>
+
+                        <p>The dustbin and the attached cleaner will clean the area or the part of the area which is dirty or unclean without any human interference .Cleaning will depend on the situation first it will detect that the garbage is dry or wet. After detection it will perform its task of cleaning.
+                        If it is wet garbage then it will first that area  pick all the garbage and it will be stored in the dustbin and then with the help of the attached cleaner it will wash and clean the area & after cleaning that part it will be washed with the water and then with the help of hot air it will instantly dry that area.
+                        </p>
+                        
+                       <p><b> What are the Key Features ?</b></p>
+                        Garbage in the location of a particular area will be detected with the help of cameras installed.
+                        This installed camera will first detect the garbage and will send the notification to it’s nearest Ai based dustbin & cleaner, also it will detect the location from where the notification has came & then it will go at that location and will clean that garbage of that particular area.
+                        
+                        
+                        <p><b>What if the same person pollutes or puts garbage or makes the place dirty (Place or area does not matter )?</b></p>
+                        His or Her face will be catched by the camera and will be starred in the database, and if he or she repeats the same thing again and again then notification will be send to his or her device and if they ignore it and repeat the same thing again and again then we will cut the penalty fee applied or can be deducted from the bank directly.
+                        
+                        <p><b>What if the person is throwing the garbage or spitting on the road side from the vehicle then ?</b></p>
+                        Simple then we will read the number plate of the vehicle and find the details of the car owner and the penalty fee notification and the photo of the area polluted.
+                         If the penalty is ignored and overdued then the money will be directly deducted from the bank a/c.
+                        
+                        <p><b>Nowadays people are wearing masks. How will we get to know the person who has thrown garbage or spitted or polluted the area  ?</b></p>
+                        If the person is spitting then they will remove the mask at that time it will be detected.
+                        If the person is throwing garbage and wears the mask then it will detect the eye and then it will fetch the data and then it will send the penalty notification.
+                        If the person is throwing the garbage or polluting or making the place dirty by keeping the head down then this is an exception case.
+                        
+                        <br>
+                       <p><b> Disadvantage :</b></p>
+                        There will be maintenance of the model because it is hardware based.
+                        Secondly, we have to keep track records of all the devices where they are & they are not damaged by any means . 
+                        If any person will purposely play with that device physically that there will be current(Shok) will be passed by the device and the human will feel if they are physically touching or damaging the device also the notification to the admin will come. 
+                        If anyone throws a stone or beats the device then also the notification will be sent to the admin.
+                        
+                        
+                        
+                         </p>
+                   
+                
+                <div class="box">
+                   
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1uE2pPKMV8ofq5iKaqZR-Ner1exjXTWlv/view?usp=sharing" class="btn">AI Dustbin</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+
+<!-- javascript part  -->
+
+<!-- typed.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+<!-- particles.js links  -->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+<script>
+
+let menu = document.querySelector('#menu-bars');
+let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+};
+
+var typed = new Typed('.typing-text', {
+    strings : ['front-back end developer', 'web designer', 'front-back end developer','ecommerce developer' ,'web developer'],
+    loop : true,
+    typeSpeed : 150
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25
+});
+
+</script>
+
+</body>
+</html>
